@@ -1,6 +1,6 @@
-Access_token: d06b5cd07aa9d1abd2107d0ea4ea6cb2661af00b198a8a50c37b338defb96e7a #it will be auto picked
-Account_ID: ANNAPPAINV
-Secret_Code: qtaUOB3IT0KqGeb6T0QvXFWHKSFcuWvcdXpEHi70hLEjsvQOpB0Tx6jhQNQvy5dN
-UID: ANNAPPAINV
-client_id: ANNAPPAINV_U
-oauth_url: https://rama.kambala.co.in/NorenWeb2.0/authorize/oauth
+Access_token:  #it will be auto picked
+Account_ID: Your account id 
+Secret_Code: Your secret_Code #  
+UID: Your account id 
+client_id: Your Client_id 
+oauth_url: https://api.shoonya.com/NorenWeb/authorize/oauth

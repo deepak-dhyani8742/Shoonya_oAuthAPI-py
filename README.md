@@ -15,7 +15,7 @@ to build this package and install it on your server please use
 ## API 
 ```NorenApi```
 <!-- [login](#md-login) -->
-- [getOAuthURL](#md-getOAuthURL)
+- [getAuthcode](#md-getAuthcode)
 - [getAccessToken](#md-getAccessToken)
 - [injectOAuthHeader](#md-injectOAuthHeader)
 - [logout](#md-logout)

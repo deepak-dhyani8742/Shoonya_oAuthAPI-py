@@ -20,18 +20,18 @@ with open('cred.yml', 'r') as f:
 apikey_url = api.getOAuthURL(cred['oauth_url'],cred['client_id'])
 logging.info(apikey_url)
 
-subprocess.Popen(
-    [
-        "google-chrome",
-        "--disable-crash-reporter",
-        "--no-default-browser-check",
-        "--no-first-run",
-        "--disable-logging",
-        apikey_url,
-    ],
-    stdout=subprocess.DEVNULL,   # hide stdout
-    stderr=subprocess.DEVNULL    # hide Chrome's internal error logs
-)
+# subprocess.Popen(
+#     [
+#         "google-chrome",
+#         "--disable-crash-reporter",
+#         "--no-default-browser-check",
+#         "--no-first-run",
+#         "--disable-logging",
+#         apikey_url,
+#     ],
+#     stdout=subprocess.DEVNULL,   # hide stdout
+#     stderr=subprocess.DEVNULL    # hide Chrome's internal error logs
+# )
 
 # Redirect the user to the login url saved in apikey_url varibale obtained from api.getOAuthURL function
 # Receive the authentication code and from the redirect url after the login.

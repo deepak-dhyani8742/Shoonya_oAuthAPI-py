@@ -14,9 +14,9 @@ CLIENT_ID   = "abc" # Replace abc with your Client _id
 USER_ID     = "abc" # Replace abc  with your User_id
 PASSWORD    = "abc" # Replace abc with your trading Account password
 TOTP_SECRET = "abc" # Replace abc with 32 base string 
-LOGIN_URL   = f"https://trade.shoonya.com/OAuthlogin/investor-entry-level/login?api_key={CLIENT_ID}&route_to= abc" # replace abc with userid
+LOGIN_URL   = f"https://api.shoonya.com/OAuthlogin/investor-entry-level/login?api_key={CLIENT_ID}&route_to= abc" # replace abc with userid
 SECRET_CODE = "abc" # Replace abc with your secret_code
-TOKEN_URL   = "https://trade.shoonya.com/NorenWClientAPI/GenAcsTok"
+TOKEN_URL   = "https://api.shoonya.com/NorenWClientAPI/GenAcsTok"
 
 
 def scan_network_for_code(driver):
